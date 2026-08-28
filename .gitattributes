@@ -1,0 +1,4 @@
+# Keep LF regardless of the editing/cloning machine -- modeldownload.sh (in
+# comfyui_nginx) parses this file line-by-line inside a Linux container.
+*.txt text eol=lf
+*.md text eol=lf
